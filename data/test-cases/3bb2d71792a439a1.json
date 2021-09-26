@@ -1,0 +1,101 @@
+{
+  "uid" : "3bb2d71792a439a1",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "d7333d5f8bc369408c480ab1c31410d9",
+  "time" : {
+    "start" : 1632663612259,
+    "stop" : 1632663625779,
+    "duration" : 13520
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#flash`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - You logged into a secure rea!\n                + You logged into a secure area!\n                + ×",
+  "statusTrace" : "Error: Expect $(`#flash`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - You logged into a secure rea!\n                + You logged into a secure area!\n                + ×\n                    at Context.<anonymous> (/home/runner/work/GHA/GHA/test/specs/example.e2e.js:10:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#flash`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - You logged into a secure rea!\n                + You logged into a secure area!\n                + ×",
+    "statusTrace" : "Error: Expect $(`#flash`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - You logged into a secure rea!\n                + You logged into a secure area!\n                + ×\n                    at Context.<anonymous> (/home/runner/work/GHA/GHA/test/specs/example.e2e.js:10:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d64066474ecd8c43",
+      "name" : "Screenshot",
+      "source" : "d64066474ecd8c43.png",
+      "type" : "image/png",
+      "size" : 42372
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c1e4a6cc7b8bf47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632660362931,
+          "stop" : 1632660368447,
+          "duration" : 5516
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3bb2d71792a439a1.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}
