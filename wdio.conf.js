@@ -129,7 +129,7 @@ exports.config = {
     // Whether or not retried specfiles should be retried immediately or deferred to the end of the queue
     // specFileRetriesDeferred: false,
     //
-    // Test reporter for stdout.
+    // Test reporter for stdout. 
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [['allure', {
